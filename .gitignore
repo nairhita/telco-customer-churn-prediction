@@ -1,0 +1,15 @@
+__pycache__/
+    .ipynb_checkpoints/
+    *.csv
+    .env
+    ```
+
+### Step 3: Stage and Commit Locally
+Tell Git to track these files:
+
+```bash
+# Add all files to the staging area
+git add .
+
+# Commit them with a professional message
+git commit -m "Initial commit: Telco churn prediction with XGBoost and SHAP explainability"
